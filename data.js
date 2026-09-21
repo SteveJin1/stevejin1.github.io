@@ -3,21 +3,14 @@
 // Use isSelected: true to feature it on the homepage and CV.
 const publications = [
   {
-    title: "Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement",
-    authors: "<b>Your Name</b>, Co-Author One, Co-Author Two",
-    venue: "ACL 2025",
-    links: [
-      { text: "Paper", url: "https://aclanthology.org/2025.acl-long.1354/" },
-      { text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
+    title: "我，和这个网站的第一篇博客",
+    authors: "<b>Steve Jin</b>,",
+    venue: "",
+
     ],
-    abstract: "The rapid advancement of large language models (LLMs) has significantly enhanced the capabilities of AI-driven agents across various tasks. However, existing agentic systems, whether based on fixed pipeline algorithms or pre-defined meta-learning frameworks, cannot search the whole agent design space due to the restriction of human-designed components, and thus might miss the globally optimal agent design. We introduce Gödel Agent, a self-evolving framework inspired by the Gödel machine, enabling agents to recursively improve themselves without relying on predefined routines or fixed optimization algorithms.",
+    abstract: "一个普通人靠免费服务器和域名东拼西凑起来的博客网站的第一篇文章",
     citation: `<pre><code>@inproceedings{yin-etal-2025-godel,
     title  = {G{\\"o}del Agent: A Self-Referential Agent Framework for Recursively Self-Improvement},
-    author = {Your Name and Co-Author One and Co-Author Two},
-    booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
-    year   = {2025},
-    url    = {https://aclanthology.org/2025.acl-long.1354/}
-}</code></pre>`,
     isNew: true,
     isPreprint: false,
     isSelected: true
@@ -48,15 +41,6 @@ const projects = [
       { url: "https://github.com/Arvid-pku/Godel_Agent/network/members", img: "https://img.shields.io/github/forks/Arvid-pku/Godel_Agent" },
       { url: "https://arxiv.org/abs/2410.04444", img: "https://img.shields.io/badge/Doc-Paper-red" }
     ],
-    isSelected: true,
-    demoPath: "photos/project-demo/godel-agent.png"
-  }
-];
-
-// Helper functions to filter projects
-const getSelectedProjects = () => projects.filter(project => project.isSelected);
-const getAllProjects = () => projects;
-
 // Research Experience Data - Replace with your own experience
 const researchExperience = [
   {
